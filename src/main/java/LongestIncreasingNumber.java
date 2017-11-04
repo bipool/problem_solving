@@ -9,7 +9,7 @@ public class LongestIncreasingNumber {
             return length;
         }
 
-        int maxLength = 0;
+        int maxLength = 1;
         int[] lis = new int[length];
         for (int i =0; i < length; i++) {
             lis[i] = 1;
