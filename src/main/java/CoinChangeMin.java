@@ -1,9 +1,7 @@
-package algorithm;
-
 /**
  * Created by zulfiquer on 12/8/17.
  */
-public class CoinChange {
+public class CoinChangeMin {
 
     public int numberOfCoins(int total, int[] coins) {
 
