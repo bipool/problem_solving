@@ -12,6 +12,6 @@ public class QueueForStack {
     }
 
     public int pop(){
-        queue.poll();
+       return queue.poll();
     }
 }
